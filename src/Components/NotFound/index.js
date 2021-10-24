@@ -1,5 +1,5 @@
 function NotFound(props) {
-    return (<></>)
+    return (<>LOL</>)
 }
 
 export default NotFound;

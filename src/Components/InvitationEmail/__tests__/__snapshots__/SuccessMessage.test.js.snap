@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SuccessMessage renders correctly 1`] = `
+<div
+  className="container"
+>
+  <h1
+    className="display-6 fw-bold"
+  >
+    All done!
+  </h1>
+  <p
+    className="fw-light"
+  >
+    Broccoli&Co
+  </p>
+  <br />
+  <p
+    className="fw-normal-5 "
+  >
+    Our team will reach you with a confirmation email along with the details about the invitation. Looking forward to seeing you there!
+  </p>
+  <div
+    className="d-grid gap-2 mt-5"
+  >
+    <button
+      className="btn btn-primary btn-lg"
+      disabled={false}
+      type="button"
+    >
+      OK!
+    </button>
+  </div>
+</div>
+`;

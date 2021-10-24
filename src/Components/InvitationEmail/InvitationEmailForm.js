@@ -23,10 +23,10 @@ const validationSchema = Yup.object().shape({
     confirmEmail: Yup.string()
         .email('*Must be a valid email address')
         .required('*Please confirm your email')
-        .oneOf([Yup.ref('email'), null], 'Emails must match'),
+        .oneOf([Yup.ref('email'), null], '*Emails must match'),
 });
 
-function SubscribeEmailForm(props) {
+function InvitationEmailForm(props) {
     const isUnmounted = useRef(false);
     const [submitError, setSubmitError] = useState("");
 
@@ -54,11 +54,9 @@ function SubscribeEmailForm(props) {
                         props.onSuccess();
                     })
                     .catch(error => {
-                        console.log(error);
                         setSubmitError(error.data.errorMessage);
                     })
                     .finally(() => {
-                        console.log(!isUnmounted.current)
                         if (!isUnmounted.current) {
                             setSubmitting(false);
                             resetForm();
@@ -134,8 +132,8 @@ function SubscribeEmailForm(props) {
     </Container>)
 }
 
-SubscribeEmailForm.propTypes = {
+InvitationEmailForm.propTypes = {
     onSuccess: Proptypes.func.isRequired,
 }
 
-export default SubscribeEmailForm;
+export default InvitationEmailForm;

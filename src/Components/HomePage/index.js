@@ -5,8 +5,7 @@ import WelcomeMessage from './WelcomeMessage';
 
 import './HomePage.scss';
 
-function HomePage(props) {
-    
+function HomePage() {
     return (
     <div className="d-flex flex-column h-100">
         <Header />

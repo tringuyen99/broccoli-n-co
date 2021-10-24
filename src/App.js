@@ -1,12 +1,13 @@
 import { Switch, Route } from 'react-router';
 
 // Components
+import { BrowserRouter } from 'react-router-dom';
 import HomePage from './Components/HomePage';
 import NotFound from './Components/NotFound';
 
 function App() {
   return (
-    <div>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Switch>
         <Route exact path="/">
           <HomePage />
@@ -15,7 +16,7 @@ function App() {
           <NotFound />
         </Route>
       </Switch>
-    </div>
+    </BrowserRouter>
   );
 }
 

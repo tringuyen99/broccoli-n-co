@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer renders correctly 1`] = `
+<div
+  className="fixed-bottom bg-dark text-center my-footer container-fluid"
+>
+  <div
+    className="fw-bold text-light"
+  >
+    Broccoli&Co
+  </div>
+  <blockquote
+    className="blockquote text-light "
+  >
+    <p
+      className="mb-2 my-quote"
+    >
+      I'm President of the United States, and I'm not going to eat any more broccoli!
+    </p>
+    <footer
+      className="blockquote-footer"
+    >
+      George H. W. Bush
+    </footer>
+  </blockquote>
+</div>
+`;

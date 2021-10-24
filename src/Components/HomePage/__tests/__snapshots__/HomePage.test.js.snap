@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomePage renders correctly 1`] = `
+<div
+  className="d-flex flex-column h-100"
+>
+  <nav
+    className="navbar navbar-expand navbar-dark bg-dark"
+  >
+    <div
+      className="container"
+    >
+      <span
+        className="navbar-brand"
+      >
+        Broccoli & Co
+      </span>
+    </div>
+  </nav>
+  <div
+    className="welcome-message container"
+  >
+    <h1
+      className="motto-quote"
+    >
+      A Better way to enjoy every day.
+    </h1>
+    <p
+      className="fw-light"
+    >
+      Broccoli&Co
+    </p>
+    <br />
+    <p
+      className="fw-normal-5 mb-5"
+    >
+      Are you ready to change your life, join us in our upcoming seminar!
+    </p>
+    <button
+      className="btn btn-primary btn-lg"
+      disabled={false}
+      onClick={[Function]}
+      type="submit"
+    >
+      Register for invitation
+    </button>
+  </div>
+  <div
+    className="fixed-bottom bg-dark text-center my-footer container-fluid"
+  >
+    <div
+      className="fw-bold text-light"
+    >
+      Broccoli&Co
+    </div>
+    <blockquote
+      className="blockquote text-light "
+    >
+      <p
+        className="mb-2 my-quote"
+      >
+        I'm President of the United States, and I'm not going to eat any more broccoli!
+      </p>
+      <footer
+        className="blockquote-footer"
+      >
+        George H. W. Bush
+      </footer>
+    </blockquote>
+  </div>
+</div>
+`;

@@ -1,0 +1,19 @@
+.welcome-message {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 800px;
+    @media (max-height: 900px){
+        justify-content: flex-start;
+        height: 500px
+    }
+    overflow-y: auto;
+}
+
+.motto-quote {
+    font-size: 5vw;
+    font-weight: 700;
+    width: 50%;
+}

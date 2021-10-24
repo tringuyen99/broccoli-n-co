@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InvitationEmailForm renders correctly 1`] = `
+<div
+  className="justify-content-center text-center container-fluid"
+>
+  <h1
+    className="display-6 fw-bold"
+  >
+    Please fill in this form
+  </h1>
+  <p
+    className="fw-light"
+  >
+    Broccoli&Co
+  </p>
+  <form
+    className="mx-auto"
+    onSubmit={[Function]}
+  >
+    <div
+      className="mb-4"
+    >
+      <label
+        className="form-label"
+        htmlFor="formName"
+      >
+        Name :
+      </label>
+      <input
+        className="border border-dark form-control"
+        id="formName"
+        name="name"
+        onBlur={[Function]}
+        onChange={[Function]}
+        placeholder="Full Name"
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      className="mb-4"
+    >
+      <label
+        className="form-label"
+        htmlFor="formEmail"
+      >
+        Email :
+      </label>
+      <input
+        className="border border-dark form-control"
+        id="formEmail"
+        name="email"
+        onBlur={[Function]}
+        onChange={[Function]}
+        placeholder="Email"
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      className="mb-5"
+    >
+      <label
+        className="form-label"
+        htmlFor="formConfirmEmail"
+      >
+        Confirm Email :
+      </label>
+      <input
+        className="border border-dark form-control"
+        id="formConfirmEmail"
+        name="confirmEmail"
+        onBlur={[Function]}
+        onChange={[Function]}
+        placeholder="Confirm Email"
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      className="d-grid gap-2"
+    >
+      <button
+        className="btn btn-primary btn-lg"
+        disabled={false}
+        type="submit"
+      >
+        Submit
+      </button>
+    </div>
+  </form>
+</div>
+`;
